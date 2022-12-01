@@ -1,21 +1,54 @@
+  <style>
+   li {
+    list-style-type: none; /* Убираем маркеры */
+   }
+  </style>
+### Меню
+<details>
+    <summary>
+        <b>Основные</b>
+    </summary>
+    <ul>
+        <li>
+            <details>
+                <summary>
+                    Дата/Время
+                </summary>
+                123
+            </details>
+        </li>
+    </ul>
+</details>
+
+
+
+
 <details>
     <summary>
         <b>Настройки подключения к серверу</b>
     </summary>
 
 
-##### [WisdomCloud] 
+    ##### [WisdomCloud] 
 
-; Включить подключние к серверу
-`enable=1`
-; 0 - использовать IP адрес, 1 - использовать домен
-`domainEnable=1`
-; IP адрес сервера
-`ip=192.168.5.156`
-; Домен
-`domain=online.sowa.pro`
-; Порт подключения к серверу
-`port=6608`
+    ; 0 - Выключить подключение к серверу, 1 - включить
+    `enable=1`
+    ; 0 - использовать IP адрес, 1 - использовать домен
+    `domainEnable=1`
+    ; IP адрес сервера
+    `ip=192.168.5.156`
+    ; Домен
+    `domain=online.sowa.pro`
+    ; Порт подключения к серверу
+    `port=6608`
+
+
+    ```
+        enable=1
+        domainEnable=1
+        ip=192.168.5.156
+        domain=online.sowa.pro
+    ```
 </details>
 
 <details>
