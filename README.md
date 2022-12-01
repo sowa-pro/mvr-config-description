@@ -4,20 +4,42 @@
    }
   </style>
 ### Меню
-<details>
-    <summary>
-        <b>Основные</b>
-    </summary>
-    <ul>
-        <li>
-            <details>
-                <summary>
-                    Дата/Время
-                </summary>
-                123
-            </details>
-        </li>
-    </ul>
+<details open>
+<summary>
+<b>Основные</b>
+</summary>
+<ul>
+<li>
+<details open>
+<summary>
+    <b>Дата/Время</b>
+</summary>
+<b>[DateTime]</b><br>
+<sub>
+Формат даты: 0 - ГГГГ-ММ-ДД, 1 - ММ-ДД-ГГГГ, 2 - ДД-ММ-ГГГГ<br>
+</sub>
+
+`DateFormat ` 
+
+<sub>
+ Синхронизация: 0 - Нет синхронизации, 1 - GPS, 2 - Сервер<br>
+ Временнная зона: 0 - Западная, 1 - Восточная <br>
+ Часовой пояс: 0-13 <br>
+ </sub>
+
+`TimeSync` 
+
+<b>Пример:</b>
+```
+DateFormat=2 
+TimeSync=1 0 7 
+```
+
+
+</details>
+</li>
+<li>
+</ul>
 </details>
 
 
